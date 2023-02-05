@@ -1,0 +1,12 @@
+.header__link_type_menu {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__link_type_menu:hover {
+    cursor: pointer;
+    opacity: .65;
+}

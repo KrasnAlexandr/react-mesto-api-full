@@ -1,0 +1,51 @@
+.header__button_type_close {
+    margin-top: 4px;
+    margin-right: 31px;
+    display: none;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__button_type_close:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    display: none;
+    background-color: rgba(255, 255, 255, 1);
+    width: 27px;
+    height: 3px;
+    rotate: 135deg;
+}
+
+.header__button_type_close:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    display: none;
+    background-color: rgba(255, 255, 255, 1);
+    width: 27px;
+    height: 3px;
+    rotate: 45deg;
+}
+
+.header__button_type_close:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 680px){
+    .header__button_type_close {
+        display: block;
+    }
+
+    .header__button_type_close:before {
+        display: block;
+    }
+
+    .header__button_type_close:after {
+        display: block;
+    }
+}

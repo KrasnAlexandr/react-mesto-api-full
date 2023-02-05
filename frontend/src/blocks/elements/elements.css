@@ -1,0 +1,11 @@
+.elements {
+    min-height: 777px;
+
+    margin: 51px 0 67px 0;
+}
+
+@media screen and (max-width: 768px){
+    .elements {
+        margin: 36px 0 48px 0;
+    }
+}

@@ -1,0 +1,14 @@
+.popup__figure-caption_type_authorization {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+    .popup__figure-caption_type_authorization {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

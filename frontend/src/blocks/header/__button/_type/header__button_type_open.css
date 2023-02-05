@@ -1,0 +1,35 @@
+.header__button_type_open {
+    margin-top: 4px;
+    margin-right: 31px;
+    display: none;
+    width: 24px;
+    height: 15px;
+    position: relative;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.header__button_type_open:hover {
+    opacity: .6;
+}
+
+.header__button_type_open:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    display: none;
+    background-color: rgba(255, 255, 255, 1);
+    width: 24px;
+    height: 3px;
+}
+
+@media screen and (max-width: 680px){
+    .header__button_type_open {
+        display: block;
+    }
+
+    .header__button_type_open:before {
+        display: block;
+    }
+}

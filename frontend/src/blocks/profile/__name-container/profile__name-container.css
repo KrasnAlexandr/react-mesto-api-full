@@ -1,0 +1,24 @@
+.profile__name-container {
+    display: grid;
+    align-items: baseline;
+    position: relative;
+    grid-template-columns: 1fr 24px;
+    column-gap: 19px;
+    row-gap: 8px;
+    margin: 0 24px 0 30px;
+    grid-template-areas:"name button"
+                        "job job";
+}
+
+@media screen and (max-width: 768px){
+    .profile__name-container {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .profile__name-container {
+        grid-template-columns: 1fr 18px;
+        margin-right: 0;
+    }
+}

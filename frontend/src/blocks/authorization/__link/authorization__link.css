@@ -1,0 +1,9 @@
+.authorization__link {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.authorization__link:hover {
+    cursor: pointer;
+    opacity: .65;
+}
