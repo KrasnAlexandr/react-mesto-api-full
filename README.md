@@ -10,7 +10,7 @@
 - редактировать профиль (изменять информацию о себе и аватар).
 
 
-## Tech Stack
+## Технологии проекта
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
@@ -22,14 +22,15 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
 
-## Demo
+## Можно ознакомиться
 
 Ссылка на веб-приложение:
 https://mesto.alexred.nomoredomainsclub.ru/
 
 Запросы к API осуществляются по адресу:
 https://api.mesto.alexred.nomoredomainsclub.ru/
-## Features
+
+## Возможности
 
 - Реализована авторизация и аутентификация пользователей.
 - Все роуты, кроме аутентификации и авторизации, защищены авторизацией.
@@ -39,7 +40,7 @@ https://api.mesto.alexred.nomoredomainsclub.ru/
 - Для ошибок API созданы классы, расширяющие конструктор `Error`.
 - Реализовано бережное хранение пароля (пароль хранится в виде хеша, API не возвращает хеш пароля клиенту)
 
-## API Reference
+## API
 
 Регистрация пользователя
 
@@ -119,7 +120,7 @@ https://api.mesto.alexred.nomoredomainsclub.ru/
   DELETE /cards/:cardId/likes 
 ```
 
-## Run Locally
+## Запуск проекта
 
 Клонировать репозиторий:
 
@@ -144,7 +145,7 @@ https://api.mesto.alexred.nomoredomainsclub.ru/
 ```
   npm run dev
 ```
-## Guidelines for the project
+## Макет и чек лист
 
 [Макет](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=4453%3A82&t=WNBIsjbJlm5xPiY2-0) в Figma с компонентами авторизации и аутентификации
 
