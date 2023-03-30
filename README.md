@@ -39,28 +39,6 @@ https://api.mesto.alexred.nomoredomainsclub.ru/
 - Для ошибок API созданы классы, расширяющие конструктор `Error`.
 - Реализовано бережное хранение пароля (пароль хранится в виде хеша, API не возвращает хеш пароля клиенту)
 
-
-## Screenshots
-Регистрация нового пользователя:
-![signup.png](https://s9.gifyu.com/images/signup.png)
-
-Авторизация пользователя:
-![signin.png](https://s9.gifyu.com/images/signin.png)
-
-Основная страница с карточками:
-![main.png](https://s3.gifyu.com/images/main.png)
-
-Редактирование данных пользователя:
-![edit.png](https://s9.gifyu.com/images/edit.png)
-
-Редактирование аватара:
-![editavatar.png](https://s9.gifyu.com/images/editavatar.png)
-
-Добавление новой карточки:
-![newplace.png](https://s9.gifyu.com/images/newplace.png)
-
-
-
 ## API Reference
 
 Регистрация пользователя
